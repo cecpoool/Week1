@@ -1,0 +1,91 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GUESS THE NUMBER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="containerOne">
+            <div class="playercontainer">
+                <h1 id="welcome1">
+                    WELCOME PLAYER ONE
+                </h1>
+            </div>
+
+            <div class="numberInput" id="inputform1">
+                <label for="guessNumbers1">Guess a Number! (1-100):</label>
+                <input type="number1" id="guess1" name="guess1" min="1" max="100">
+                <div class="button">
+                    <button onclick="submit()" id="guessbtn1">SUBMIT</button>
+                </div>
+            </div>
+            <div class="numberAppear1" id="numberAppear1">
+                <h1 id="heading1"> You have 25 guesses</h1>
+            </div>
+        </div>
+        <div class="containerTwo">
+            <h1 id="welcome2">
+                WELCOME PLAYER TWO
+            </h1>
+            <div class="numberInput2" id="inputform2">
+                <label for="guessNumbers2">Guess a Number! (1-100):</label>
+                <input type="number2" id="guess2" name="guess2" min="1" max="100">
+                <div class="button">
+                    <button onclick="submit()" id="guessbtn2">SUBMIT</button>
+                </div>
+            </div>
+            <div class="numberAppear2" id="numberAppear2">
+                <h1 id="heading2"> You have 25 guesses</h1>
+            </div>
+        </div>
+        <div class="containerThree">
+            <h1 id="welcome3">
+                WELCOME PLAYER THREE
+            </h1>
+            <div class="numberInput2" id="inputform3">
+                <label for="guessNumbers3">Guess a Number! (1-100):</label>
+                <input type="number3" id="guess3" name="guess2" min="1" max="100">
+                <div class="button">
+                    <button onclick="submit()" id="guessbtn3">SUBMIT</button>
+                </div>
+            </div>
+            <div class="numberAppear3" id="numberAppear3">
+                <h1 id="heading3"> You have 25 guesses</h1>
+            </div>
+        </div>
+        <div class="containerFour">
+            <h1 id="welcome4">
+                WELCOME PLAYER FOUR
+            </h1>
+            <div class="numberInput" id="inputform4">
+                <label for="guessNumbers4">Guess a Number! (1-100):</label>
+                <input type="number4" id="guess4" name="guess4" min="1" max="100">
+                <div class="button">
+                    <button onclick="submit()" id="guessbtn4">SUBMIT</button>
+                </div>
+            </div>
+            <div class="numberAppear4" id="numberAppear4">
+                <h1 id="heading4"> You have 25 guesses</h1>
+            </div>
+        </div>
+
+        <div class="result" id="result">
+            <h2 id="headingFinal"> </h2>
+
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

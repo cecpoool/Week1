@@ -1,0 +1,104 @@
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ul{list-style:none}
+button,input,select,textarea{margin:0}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+
+body{
+    min-height:100vh;
+    background-size: cover;
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.containerOne { 
+    width:50%; 
+    height:100vh;    
+    background:#8ab6fc
+ }
+.containerTwo {
+     width:50%; 
+     height:100vh;   
+     background:#58CBA3;
+}  
+   
+.numberinput1{
+    color:#58CBA3;
+    font-family: 'Creepster', cursive;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    padding:1rem;
+    display: inline-flex;
+    BACKGROUND: rgba 0,0,0,0.5;
+    margin:20px;
+}
+.numberinput2{
+    color:#8ab6fc ;
+    font-family: 'Creepster', cursive;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    padding:1rem;
+    display: inline-flex;
+    BACKGROUND: rgba 0,0,0,0.5;
+    margin:20px;
+}
+
+
+h1{
+    margin:20px;
+}
+
+
+button{
+    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Creepster', cursive;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    padding:1rem;
+}
+
+.result1{
+    display:flex;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    overflow: hidden;
+    text-align:center;
+    margin:150px;
+
+}
+#headingFinal1{
+    margin:150px;
+}
+
+#headingFinal2{
+    margin:150px;
+}
+
+#guess1{
+    color:#58CBA3;
+    font-family: 'Creepster', cursive;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size:30px;
+}
+
+#guess2{
+    color:#8ab6fc ;
+    font-family: 'Creepster', cursive;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size:30px;
+}

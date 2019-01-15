@@ -1,0 +1,68 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GUESS THE NUMBER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="indexmulti.css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="maincontainer">
+
+        <div class="containerOne">
+            <div class="result" id="result1">
+                <h2 id="headingFinal1"> </h2>
+            </div>
+            <div class="playercontainer">
+                <h1 id="welcome1">
+                    WELCOME PLAYER ONE
+                </h1>
+            </div>
+
+            <div class="numberInput1" id="inputform1">
+                <label for="guessNumbers1">Guess a Number! (1-100):</label>
+                <input type="number" id="guess1" name="guess1" min="1" max="100">
+                <div class="button">
+                    <button onclick="submit1()" id="guessbtn1">SUBMIT</button>
+                </div>
+            </div>
+            <div class="numberAppear1" id="numberAppear1">
+                <h1 id="heading1"> You have 50 guesses</h1>
+                <h2 id="guesses1"> </h2>
+            </div>
+        </div>
+        <div class="containerTwo">
+            <div class="result" id="result1">
+                <h2 id="headingFinal2"> </h2>
+            </div>
+            <div class="playercontainer">
+            </div>
+            <h1 id="welcome2">
+                WELCOME PLAYER TWO
+            </h1>
+            <div class="numberInput2" id="inputform2">
+                <label for="guessNumbers2">Guess a Number! (1-100):</label>
+                <input type="number" id="guess2" name="guess2" min="1" max="100">
+                <div class="button">
+                    <button onclick="submit2()" id="guessbtn2">SUBMIT</button>
+                </div>
+            </div>
+            <div class="numberAppear2" id="numberAppear2">
+                <h1 id="heading2"> You have 50 guesses</h1>
+                <h2 id="guesses2"> </h2>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="indexmultiA.js"></script>
+</body>
+
+</html>
